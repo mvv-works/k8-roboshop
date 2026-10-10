@@ -98,7 +98,7 @@ spec:
       - name: frontend
         image: joindevops/frontend:4.0.0
       # this is pod level, it is like adding the disk to the pod
-      volume:
+      volumes:
       - name: config-volume
         configMap:
           name: nginx-config
