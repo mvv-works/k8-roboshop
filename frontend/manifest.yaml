@@ -68,6 +68,7 @@ data:
         }
     }
 
+
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -129,5 +130,6 @@ spec:
       port: 80  # service port
       targetPort: 80 # container port 
        
+
 
 
